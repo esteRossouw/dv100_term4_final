@@ -250,8 +250,20 @@ button{
 /* footer */
 
 footer{
-    
-    width: 1445px;
     height: 345px;
+    text-align: center; 
+    color: white; 
     background-color: #470069;
+}
+
+.foot:hover {
+    transform: scale(1.1);
+}
+
+.icon{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.icon:hover {
+    transform: scale(0.9);
 }
